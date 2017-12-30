@@ -1,5 +1,5 @@
 {
-  "name": "electron-helper",
+  "name": "@rammbulanz/electron-helper",
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
