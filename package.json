@@ -1,12 +1,11 @@
 {
   "name": "electron-helper",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "gulp build"
   },
-  "author": "",
+  "author": "Mike <iwashier@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "del": "^3.0.0",
@@ -18,5 +17,14 @@
   },
   "dependencies": {
     "electron": "^1.7.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marder/electron-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marder/electron-helper/issues"
+  },
+  "homepage": "https://github.com/marder/electron-helper#readme",
+  "description": ""
 }
