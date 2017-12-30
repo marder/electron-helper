@@ -5,10 +5,12 @@ var del = require("del");
 var tsProject = tsc.createProject("tsconfig.json");
 
 gulp.task("build", ["cleanup"], function () {
-	return gulp.src("src/**/*.ts")
-		.pipe(tsProject())
-		.js
-		.pipe(gulp.dest("dist"));
+	let tsResult = gulp.src("src/**/*.ts")
+		.pipe(tsProject());
+	
+	tsResult.dts.pipe(gulp.dest("declarations"));
+
+	return tsResult.js.pipe(gulp.dest("dist"));
 });
 
 gulp.task("cleanup", function () {
