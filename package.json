@@ -16,7 +16,7 @@
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "electron": "^1.7.10"
+    "electron": "^1.8.4"
   },
   "repository": {
     "type": "git",
